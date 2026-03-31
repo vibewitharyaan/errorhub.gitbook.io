@@ -17,21 +17,18 @@ Feel free to create a ticket on our Discord server if you are unable to locate t
 #### You can check the below listed link too for more info:
 
 {% embed url="https://errorhub.tebex.io" %}
-VISIT OUT STORE
+CHECKOUT OUR FIVEM STORE
 {% endembed %}
 
-{% embed url="https://www.youtube.com/@ERRORHub" %}
-VISIT OUR YOUTUBE CHANNEL
+{% embed url="https://www.youtube.com/@vibewitharyaan" %}
+CHECKOUT OUR YOUTUBE CHANNEL
 {% endembed %}
 
-{% embed url="https://discord.errorhub.co" %}
-JOIN OUR DISCORD
+{% embed url="https://discord.gg/Eux7CJEQN2" %}
+JOIN OUR DISCORD SERVER
 {% endembed %}
 
-{% embed url="https://github.com/3RRORCodes" %}
-VISIT OUR GITHUB PAGE
+{% embed url="https://elapsedstudios.com/" %}
+VISIT OUR OFFICIAL STUDIO WEBSITE
 {% endembed %}
 
-{% embed url="https://errorhub.app" %}
-VISIT OUR WEBSITE
-{% endembed %}
