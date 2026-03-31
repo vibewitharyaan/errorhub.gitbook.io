@@ -28,7 +28,7 @@ else -- > approx line 57
 end
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>This is how the modified code should look like</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>This is how the modified code should look like</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="qbx_vehiclekeys" %}
@@ -53,7 +53,7 @@ local function onVehicleAttemptToEnter(vehicle)
 end
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>This is how the modified code should look like</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>This is how the modified code should look like</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

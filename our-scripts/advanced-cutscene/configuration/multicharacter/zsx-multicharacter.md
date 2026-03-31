@@ -24,7 +24,7 @@ TriggerEvent("eh_cutscene:client:StartCutscene") -->> Start eh_cutscene
 print('^2Started eh_cutscene')
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>This is how the modified client code should look like</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>This is how the modified client code should look like</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="fivem-appearance" %}
@@ -42,7 +42,7 @@ TriggerEvent("eh_cutscene:client:StartCutscene") -->> Start eh_cutscene
 print('^2Started eh_cutscene')
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>This is how the modified client code should look like</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>This is how the modified client code should look like</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="bl_appearance" %}
@@ -60,7 +60,7 @@ TriggerEvent("eh_cutscene:client:StartCutscene") -->> Start eh_cutscene
 print('^2Started eh_cutscene')
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>This is how the modified client code should look like</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>This is how the modified client code should look like</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
