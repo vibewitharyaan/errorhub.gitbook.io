@@ -5,32 +5,29 @@ icon: clock-rotate-left
 # Changelog
 
 {% updates format="full" %}
-{% update date="2025-12-17" %}
-## v3.2.5 — Final Release
+{% update date="2026-03-29" %}
+## v1.3.2
 
 <details>
 
 <summary>Added</summary>
 
-* Introduced face customization support (face blending for increased variation)
-* Added a configuration guide with detailed explanations for all options
+* Added `config.requireOnDuty` option to make on-duty checks optional
 
 </details>
+{% endupdate %}
 
-<details>
-
-<summary>Changed</summary>
-
-* Updated the component system to improve compatibility
-
-</details>
+{% update date="2026-01-31" %}
+## v1.3.1
 
 <details>
 
 <summary>Fixed</summary>
 
-* Resolved issues where passenger skin tones were not applying correctly
-* Resolved issues where passenger hairstyles and colors were not applying correctly
+* Fixed payment system failing to add money to business accounts
+* Fixed displacement issues with cold drink prop animations
+* Fixed cold drink emote placement issues
+* Removed leftover debug command inside delivery loop
 
 </details>
 
@@ -38,30 +35,8 @@ icon: clock-rotate-left
 
 <summary>Improved</summary>
 
-* Enhanced overall reliability of the clothing system
-
-</details>
-
-<details>
-
-<summary>Notes</summary>
-
-* This is the final release of Advanced Cutscene. No further updates are planned.
-* Updated files:
-  * config/config.lua
-  * client/cl\_cutscene.lua
-
-</details>
-{% endupdate %}
-
-{% update date="2025-12-02" %}
-## v3.2.0
-
-<details>
-
-<summary>Added</summary>
-
-* Introduced support for configurable passenger clothing
+* Improved resource detection logic to prevent incorrect system selection
+* Pending billing requests now clear automatically if a player disconnects
 
 </details>
 
@@ -69,45 +44,93 @@ icon: clock-rotate-left
 
 <summary>Changed</summary>
 
-* Passenger models are now aligned with GTA V cutscene requirements to ensure proper outfit application
+* **Files Updated:**
+  * `bridge/` _(entire folder)_
+  * `config/emote.lua`
+  * `core/client/cl_billling.lua`
+  * `core/server/sv_billling.lua`
+  * `core/server/sv_delivery.lua`
 
 </details>
 
 <details>
 
-<summary>Fixed</summary>
+<summary>Notes</summary>
 
-* Resolved inconsistencies where passenger clothing would not apply correctly during cutscenes
-
-</details>
-
-<details>
-
-<summary>Removed</summary>
-
-* Passenger ped model customization
+* This is the final feature/improvement update for the Raycrest Restaurant Job script
+* The resource is now in maintenance-only phase
 
 </details>
 {% endupdate %}
 {% endupdates %}
 
 {% updates format="full" %}
-{% update date="2025-10-14" %}
-## v3.1.0
-
-<details>
-
-<summary>Added</summary>
-
-* Introduced support for using any multiplayer/NPC ped as a passenger (not limited to freemode models)
-
-</details>
+{% update date="2026-01-15" %}
+## v1.2.1
 
 <details>
 
 <summary>Fixed</summary>
 
-* Resolved an issue where passenger outfits for freemode characters would not apply correctly during cutscenes
+* **Script:** Fixed interaction target not working on spawn
+
+</details>
+
+<details>
+
+<summary>Changed</summary>
+
+* **Script Files Updated:**
+  * Replaced `bridge/framework.lua` (no full script update required)
+
+</details>
+{% endupdate %}
+
+{% update date="2025-12-20" %}
+## v1.1.1
+
+<details>
+
+<summary>Fixed</summary>
+
+* **Script:** Fixed cold drink animation not playing correctly
+* **MLO:** Fixed water puddles appearing indoors during rain
+
+</details>
+
+<details>
+
+<summary>Changed</summary>
+
+* **Script Files Updated:**
+  * `config/emote.lua`
+* **MLO Files Updated:**
+  * Updated MLO files
+
+</details>
+{% endupdate %}
+
+{% update date="2025-12-14" %}
+## v1.1.0
+
+<details>
+
+<summary>Fixed</summary>
+
+* Resolved progress bar issues when using QBox framework with QB progress bar option
+* Fixed animation issue when consuming food that caused players to fall out of vehicles
+* Fixed hunger, thirst, and stress not updating correctly when consuming items in the QBox framework
+
+</details>
+
+<details>
+
+<summary>Added</summary>
+
+* Introduced configurable consumable behavior flags per item:
+  * `canDrive`
+  * `canCombat`
+  * `canMove`
 
 </details>
 {% endupdate %}
