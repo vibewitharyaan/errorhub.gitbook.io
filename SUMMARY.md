@@ -22,6 +22,7 @@
     * [Vehicle Keys](our-scripts/advanced-cutscene/configuration/vehicle-keys.md)
   * [Events and Exports](our-scripts/advanced-cutscene/events-and-exports.md)
   * [Shared Files](our-scripts/advanced-cutscene/shared-files.md)
+  * [changelogs](our-scripts/advanced-cutscene/changelogs.md)
 * [Raycrest Restaurant](our-scripts/raycrest-restaurant/README.md)
   * [Installation ](our-scripts/raycrest-restaurant/installation.md)
   * [Configuration](our-scripts/raycrest-restaurant/configuration/README.md)
@@ -30,6 +31,7 @@
     * [Adding Job](our-scripts/raycrest-restaurant/configuration/adding-job.md)
   * [Props](our-scripts/raycrest-restaurant/props.md)
   * [logo](our-scripts/raycrest-restaurant/logo.md)
+  * [changelogs](our-scripts/raycrest-restaurant/changelogs.md)
 
 ## HOUSING SHELLS
 
