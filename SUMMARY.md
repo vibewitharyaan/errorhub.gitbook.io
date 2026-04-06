@@ -30,8 +30,7 @@
     * [Adding Items](our-scripts/raycrest-restaurant/configuration/adding-items.md)
     * [Adding Job](our-scripts/raycrest-restaurant/configuration/adding-job.md)
   * [Props](our-scripts/raycrest-restaurant/props.md)
-  * [logo](our-scripts/raycrest-restaurant/logo.md)
-  * [changelogs](our-scripts/raycrest-restaurant/changelogs.md)
+  * [Logo](our-scripts/raycrest-restaurant/logo.md)
 
 ## HOUSING SHELLS
 
