@@ -23,6 +23,10 @@
   * [Events and Exports](our-scripts/advanced-cutscene/events-and-exports.md)
   * [Shared Files](our-scripts/advanced-cutscene/shared-files.md)
   * [Changelog](our-scripts/advanced-cutscene/changelog.md)
+* [Anti-Release Shield](our-scripts/anti-release-shield/README.md)
+  * [Installation ](our-scripts/anti-release-shield/installation.md)
+  * [Exports](our-scripts/anti-release-shield/exports.md)
+  * [Changelog](our-scripts/anti-release-shield/changelog.md)
 * [Raycrest Restaurant](our-scripts/raycrest-restaurant/README.md)
   * [Installation ](our-scripts/raycrest-restaurant/installation.md)
   * [Configuration](our-scripts/raycrest-restaurant/configuration/README.md)
@@ -31,6 +35,7 @@
     * [Adding Job](our-scripts/raycrest-restaurant/configuration/adding-job.md)
   * [Props](our-scripts/raycrest-restaurant/props.md)
   * [Logo](our-scripts/raycrest-restaurant/logo.md)
+  * [Changelog](our-scripts/raycrest-restaurant/changelog.md)
 
 ## HOUSING SHELLS
 
