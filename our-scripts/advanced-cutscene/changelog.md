@@ -5,8 +5,54 @@ icon: clock-rotate-left
 # Changelog
 
 {% updates format="full" %}
+{% update date="2026-04-18" %}
+## v3.3.0
+
+<details>
+
+<summary>Improvements &#x26; Refactor</summary>
+
+* **Service Logic:** Refined `cutscene.only` mode to properly disable taxi and rental services.
+* **System Stability:** Rewrote core service modules (taxi, rental, receptionist) for better performance and maintainability.
+* **Version Checker:** Completely rebuilt for more reliable update notifications and cleaner logs.
+
+</details>
+
+<details>
+
+<summary>Fixed</summary>
+
+* **Gender Detection:** Switched to framework-based detection for 100% reliability, ensuring the correct cutscene plays regardless of the player's ped model.
+
+</details>
+
+<details>
+
+<summary>Improved</summary>
+
+* Optimized code structure and improved formatting across all client-side files.
+
+</details>
+
+<details>
+
+<summary>Notes</summary>
+
+Updated files:
+
+* `client/cl_cutscene.lua`
+* `client/cl_main.lua`
+* `client/cl_rental.lua`
+* `client/cl_taxi.lua`
+* `server/version.lua`
+* `shared/bridge.lua`
+* `fxmanifest.lua`
+
+</details>
+{% endupdate %}
+
 {% update date="2025-12-17" %}
-## v3.2.5 — Final Release
+## v3.2.5
 
 <details>
 
